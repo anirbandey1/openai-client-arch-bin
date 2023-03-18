@@ -30,10 +30,16 @@ package() {
   # echo 'Hello to you!' > "${srcdir}/hello-world.sh"
   # cp "hello-world.sh" > "${srcdir}/hello-world.sh"
   mkdir -p "${pkgdir}/usr/bin"
+  mkdir -p "${pkgdir}/usr/share"
+  mkdir -p "${pkgdir}/usr/share/icons"
+  mkdir -p "${pkgdir}/usr/share/applications"
   mkdir -p "${pkgdir}/opt"
 
   cp "${srcdir}/launch_arch.sh" "${pkgdir}/usr/bin/openai-client"
   cp -r "${srcdir}/openai-client" "${pkgdir}/opt/openai-client"
+
+  cp "${srcdir}/openai-client/images/icons/desktop_icon.jpg" "${pkgdir}/usr/share/icons/openai-client.jpg"  
+  cp "${srcdir}/openai-client/OpenAIClient.desktop" "${pkgdir}/usr/share/applications/openai-client.desktop"  
 
   mkdir -p "${pkgdir}/opt/openai-client/.venv"
 
