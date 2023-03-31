@@ -25,7 +25,7 @@ source=("git+https://github.com/awesomeDev12/openai-client.git"
         "git+https://github.com/awesomeDev12/openai-client-arch-binaries.git"
         "launch_arch.sh")
 # sha512sums=("SKIP")
-sha512sums=("SKIP" "SKIP")
+sha512sums=("SKIP" "SKIP" "SKIP")
 
 package() {
   # echo 'Hello to you!' > "${srcdir}/hello-world.sh"
