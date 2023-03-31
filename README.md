@@ -1,7 +1,6 @@
 # Open AI client 
 ## Arch  package
 
-Source code [link](https://github.com/awesomeDev12/openai-client)
 
 #### Dependencies
 - git
@@ -14,3 +13,7 @@ git clone https://github.com/awesomeDev12/openai-client-arch.git
 cd openai-client-arch
 makepkg -si
 ```
+
+#### Reference
+- [Source code](https://github.com/awesomeDev12/openai-client)
+- [Binaries](https://github.com/awesomeDev12/openai-client-arch-binaries)
