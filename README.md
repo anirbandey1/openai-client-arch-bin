@@ -9,7 +9,7 @@
 
 #### Installation
 ```
-git clone https://github.com/awesomeDev12/openai-client-arch.git
+git clone https://github.com/awesomeDev12/openai-client-arch-bin.git
 cd openai-client-arch
 makepkg -si
 ```
