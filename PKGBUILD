@@ -1,4 +1,4 @@
-pkgname="openai-client-git"
+pkgname="openai-client-bin"
 pkgdesc="OpenAI client made using PySide6 Qt"
 pkgver="1.0.0"
 pkgrel=1
