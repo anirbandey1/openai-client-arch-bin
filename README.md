@@ -16,4 +16,6 @@ makepkg -si
 
 #### Reference
 - [Source code](https://github.com/awesomeDev12/openai-client)
-- [Binaries](https://github.com/awesomeDev12/openai-client-arch-binaries)
+
+
+
